@@ -1,0 +1,27 @@
+# Arquivos temporários
+*~
+*.swp
+
+/config
+/etc
+/app/__pycache__/*
+/app/env/*
+
+# Arquivos de log
+*.log
+log/
+
+# Arquivos de build e artefatos
+/build/
+/dist/
+/node_modules/
+
+
+
+# Arquivos de configuração local
+.env
+.env.local
+.env.*.local
+.env.development.local
+.env.test.local
+.env.production.local
