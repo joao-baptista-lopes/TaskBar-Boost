@@ -3,3 +3,4 @@ win10toast==0.9
 pygame==2.0.1
 pywin32==303
 pygetwindow
+customtkinter==0.3
