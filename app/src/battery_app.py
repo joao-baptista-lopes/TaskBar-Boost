@@ -11,7 +11,7 @@ def check_by_10_thread():
         battery = psutil.sensors_battery()
         bateria = battery.percent
         if bateria % 10 == 0:
-            toast(f'{USER} You have {bateria}% battery already, you can disconect the device from the charge')
+            toast(f'{USER} You have {bateria}% battery already !')
         time.sleep(180)  
 
 
