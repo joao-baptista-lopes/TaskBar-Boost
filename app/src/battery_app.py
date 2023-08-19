@@ -1,3 +1,8 @@
+
+#João Lopes------------------------------
+#Copyright-------------------------------
+
+
 import psutil
 from win11toast import ToastNotification
 from win11toast import toast
