@@ -1,8 +1,6 @@
 
 #João Lopes------------------------------
 #Copyright-------------------------------
-
-
 import psutil
 from win11toast import ToastNotification
 from win11toast import toast
@@ -17,7 +15,7 @@ def check_by_10_thread():
         battery = psutil.sensors_battery()
         bateria = battery.percent
         if bateria % 10 == 0:
-            toast(f'{USER} You have {bateria}% battery already !')
+            toast(f'{USER} You have {bateria}% battery already ! You are free to unplug your charger.')
         time.sleep(180)  
 
 
