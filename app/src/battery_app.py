@@ -15,7 +15,7 @@ def check_by_10_thread():
         battery = psutil.sensors_battery()
         bateria = battery.percent
         if bateria % 10 == 0:
-            toast(f'{USER} You have {bateria}% battery already ! You are free to unplug your charger.')
+            toast(f'{USER} You have {bateria}%  of battery ')
         time.sleep(180)  
 
 
